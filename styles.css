@@ -1,0 +1,31 @@
+.main {
+  width: 250px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  font-size: 30px;
+  overflow: auto;
+}
+
+.sender {
+  margin-left: auto;
+}
+
+.bot {
+  margin-right: auto;
+}
+
+.input {
+  display: flex;
+  width: 200px;
+}
+
+#input {
+  margin-right: 10px;
+}
+
+@media (max-width: 575.98px) {
+  .main {
+    width: 100%;
+  }
+}
